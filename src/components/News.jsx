@@ -39,7 +39,9 @@ const News = () => {
               {NewsData?.map((news, index) => (
                 <div className="news__card" key={index}>
                   <img src={news.urlToImage} className="news__img" />
-                  <div> {news.title} </div>
+                  <div>
+                    <p className="news__title">{news.title}</p>
+                  </div>
                   <a className="news__content" href={news.url} target="__blank">
                     Read now 🚀
                   </a>

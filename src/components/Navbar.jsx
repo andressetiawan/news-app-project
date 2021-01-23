@@ -29,7 +29,9 @@ const Navbar = () => {
   };
 
   const Homepage = () => {
-    dispatch(setSearchInput("covid"));
+    if (isSignedIn) {
+      dispatch(setSearchInput("covid"));
+    }
   };
 
   return (

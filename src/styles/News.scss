@@ -14,8 +14,9 @@
   text-align: center;
   padding: 1.5rem 0.75em;
   border-radius: 8px;
+  box-shadow: 0 5px 10px #777;
+  border: 3px solid #453d81;
   margin: 1.5rem;
-  background-color: #ffb454;
   max-width: 300px;
   height: fit-content;
 }
@@ -28,15 +29,21 @@
 }
 
 .news__content {
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 1rem;
   text-decoration: none;
   font-size: large;
+  color: #453d81;
+}
+
+.news__title {
+  margin-top: 0.5em;
+  color: black;
 }
 
 .no__news {
   margin-top: 5rem;
-}
-.no__news h1 {
-  font-size: x-large;
+  h1 {
+    font-size: x-large;
+  }
 }

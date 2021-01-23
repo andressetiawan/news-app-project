@@ -5,9 +5,12 @@
   left: 0;
 }
 .navbar__logo {
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 2px solid #453d81;
   cursor: pointer;
   font-size: 100%;
-  color: #51cdf1;
+  color: #453d81;
 }
 h1 {
   margin: 0;
@@ -39,7 +42,7 @@ h1 {
   background-color: transparent;
   border: 1px solid #ffb454;
   border-radius: 20px;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.75rem;
   margin-left: 1rem;
 }
 
@@ -50,12 +53,16 @@ h1 {
 }
 
 .navbar__search {
+  width: 30%;
   display: flex;
   padding: 0.5em 1em;
   background-color: white;
   border-radius: 10px;
 }
 .news__search {
+  font-weight: 600;
+  color: black;
+  font-size: 90%;
   outline: none;
   border: none;
   background-color: transparent;
