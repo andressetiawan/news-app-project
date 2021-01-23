@@ -1,0 +1,68 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navbar__logo {
+  cursor: pointer;
+  font-size: 100%;
+  color: #51cdf1;
+}
+h1 {
+  margin: 0;
+  font-size: small;
+  color: black;
+}
+.navbar__header {
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.profile__picture {
+  margin-right: 0.5em;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.btn__logout {
+  cursor: pointer;
+  color: #ffb454;
+  background-color: transparent;
+  border: 1px solid #ffb454;
+  border-radius: 20px;
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+}
+
+.btn__logout:hover {
+  background-color: #ffb454;
+  color: white;
+  transition: ease-in-out 0.25s;
+}
+
+.navbar__search {
+  display: flex;
+  padding: 0.5em 1em;
+  background-color: white;
+  border-radius: 10px;
+}
+.news__search {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.icon__search {
+  cursor: pointer;
+  width: 0.75rem;
+}
